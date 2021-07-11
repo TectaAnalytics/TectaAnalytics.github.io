@@ -39,6 +39,28 @@
     a {
     color: #009579;
     }
+    #points {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#points td, #points th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#points tr:nth-child(even){background-color: #f2f2f2;}
+
+#points tr:hover {background-color: #ddd;}
+
+#points th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
 </style>    
 </head>
 
@@ -64,7 +86,7 @@
 <br>
 
     <h3>Smart Points Scheduling</h3>
-    <table style="width:50%">
+    <table id="points">
       <tr>
         <th style="text-align:left">System</th>
         <th style="text-align:left">Vendor Design Submitted</th> 
