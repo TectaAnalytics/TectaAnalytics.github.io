@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600%26display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    }
+    .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: #222222;
+    }
+    .nav__link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+    }
+    .nav__link:hover {
+    background: green;
+    }
+    #app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+    }
+    a {
+    color: #009579;
+    }
+</style>    
+</head>
+
+<body>
+    <nav class="nav">
+        <br><br>
+        <a href="/ui/#!/1" class="nav__link" data-link><i class="fa fa-home"></i>&nbsp; Project</a>
+        <a href="/ui/#!/2" class="nav__link" data-link><i class="fa fa-fire"></i>&nbsp; Heating</a>
+        <a href="/ui/#!/3" class="nav__link" data-link><i class="fa fa-snowflake-o"></i>&nbsp; Cooling</a>
+        <a href="/ui/#!/4" class="nav__link" data-link><i class="fa fa-refresh"></i>&nbsp; Ventilation</a>
+        <a href="/ui/#!/5" class="nav__link" data-link><i class="fa fa-shower"></i>&nbsp; Water Services</a>
+        <a href="/ui/#!/6" class="nav__link" data-link><i class="fa fa-bars"></i>&nbsp; Secondary</a>
+        <a href="/ui/#!/7" class="nav__link" data-link><i class="fa fa-cog"></i>&nbsp; Ancillary</a>
+        <a href="/ui/#!/8" class="nav__link" data-link><i class="fa fa-plug"></i>&nbsp; Electrical</a>
+        <a href="/ui/#!/5" class="nav__link" data-link><i class="fa fa-laptop"></i>&nbsp; BMS</a>
+    </nav>
+
+<div id="app">
+
+<h2>Welcome</h2>
+<p>Building technology design tool</p>
+<br>
+<p>Click on the link in the navigation menu and fill in the detail. Once completed, a full design package is created using our powerful engineering AI</p>
+<br>
+
+<table style="width:50%">
+  <tr>
+    <th style="text-align:left">Design Element</th>
+    <th style="text-align:left">Complete?</th> 
+  </tr>
+  <tr>
+    <td>Project Info</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Building Info</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Heating System Configuration</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Cooling System Configuration</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Ventilation Configurations</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Secondary Services</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Ancillary HVAC</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>Electrical Services</td>
+    <td>&#128308;</td>
+  </tr>
+  <tr>
+    <td>BMS System Configuration</td>
+    <td>&#128308;</td>
+  </tr>
+</table>
+
+</div>
+
+</body>
+</html>
